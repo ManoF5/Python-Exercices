@@ -7,4 +7,4 @@ n4 = str(input("Fourth student: "))
 namelist = [n1, n2, n3, n4]
 choice = choice(namelist)
 # OUTPUT
-print("The chosen student was {}".format(choice))
+print("The chosen student was {} \n".format(choice))
