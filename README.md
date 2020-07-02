@@ -1,5 +1,5 @@
-# Python-Exercices
-activities from [**Curso em Vídeo**](https://www.cursoemvideo.com/) 
+# Python Course
+activities from course [**Curso em Vídeo**](https://www.cursoemvideo.com/) 
 made by [Gustavo Guanabara](https://github.com/gustavoguanabara) 
 
 
