@@ -1,5 +1,11 @@
+# COLOR
+colors = {
+    'clean':'\033[m',
+    'red':'\033[1;31m'
+}
+# INTRO
 print('=' * 21)
-print('  Triangle Analyzer')
+print('{}  Triangle Analyzer {}'.format(colors['red'], colors['clean']))
 print('=' * 21)
 # INPUT
 r1 = float(input('Enter the length of the first straight: '))
