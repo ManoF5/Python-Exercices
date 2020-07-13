@@ -1,6 +1,14 @@
+# COLOR
+colors = {
+    'clean':'\033[m',     # clear the colors
+    'blue':'\033[1;34m'   # bold blue
+}         
+#INTRO
+print('-------------------------')
+print("{}  Temperature Converter  {} ".format(colors['blue'], colors['clean']))
+print('-------------------------')
 # INPUT
-print("    ---Temperature Converter--- \n")
-celsius = float(input("Type the temperature in degrees celsius:"))
+celsius = float(input("\nType the temperature in degrees celsius:"))
 # MATH
 fahrenheit = (celsius * 9/5) + 32
 kelvin = celsius + 273.15
