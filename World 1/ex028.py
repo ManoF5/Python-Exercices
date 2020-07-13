@@ -4,14 +4,15 @@ machine_num = choice(numbers)
 # COLORS
 colors = {
     'CLEAR':'\033[m',
-    'GREEN':'\033[1;32m'
+    'GREEN':'\033[1;32m',
+    'RED':'\033[1;31m'
     }
 # INPUT
 print('Try to find the number chosen by the {}machine{}'.format(colors['GREEN'], colors['CLEAR']))
 num = int(input('type a number({}0-5{}): '.format(colors['GREEN'], colors['CLEAR'])))
 # OUTPUT
 if num == machine_num:
-    print('\nYou wins!')
+    print('\n{}You wins!{}'.format(colors['GREEN'], colors['CLEAR']))
 else:
-    print('\nMachine wins!')
-    print('Better luck next time')
+    print('\n{}Machine wins!{}'.format(colors['RED'], colors['CLEAR']))
+    print('Better luck next time \n')

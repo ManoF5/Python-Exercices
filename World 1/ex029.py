@@ -1,3 +1,9 @@
+# COLORS
+colors = {
+    'CLEAR':'\033[m',
+    'GREEN':'\033[32m'
+    }
+# DATA
 max_velocity = 80
 # INPUT
 velocity = float(input('Type the velocity of the car(km): '))

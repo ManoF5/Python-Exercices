@@ -1,5 +1,10 @@
+# COLORS
+colors = {
+    'CLEAR':'\033[m',
+    'GREEN':'\033[32m'
+    }
 # INPUT
-num = int(input('Type a number(0-9999): '))
+num = int(input('Type a number({}0-9999{}): '.format(colors['GREEN'], colors['CLEAR'])))
 # MATH
 u = num // 1 % 10
 t = num // 10 % 10
