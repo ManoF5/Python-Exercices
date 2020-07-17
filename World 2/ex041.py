@@ -9,7 +9,7 @@ colors = {
     'GREEN':'\033[32m',
     'CYAN':'\033[36m',
     'BLUE':'\033[34m'
-    }
+}
 # INTRO
 print('-----------------------------')
 print('{} Swimming Age Classification {}'.format(colors['BLUE'], colors['CLEAN']))
