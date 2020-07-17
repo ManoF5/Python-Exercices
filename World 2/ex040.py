@@ -4,7 +4,7 @@ colors = {
     'GREEN':'\033[32m',
     'YELLOW':'\033[33m',
     'RED':'\033[31m'
-    }
+}
 # INTRO
 print('{} ------------------ {}'.format(colors['RED'], colors['CLEAN']))
 print('{}  Media Calculator  {}'.format(colors['GREEN'], colors['CLEAN']))

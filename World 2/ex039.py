@@ -5,7 +5,7 @@ actual = date.today().year
 colors = {
     'CLEAN':'\033[m',
     'GREEN':'\033[32m'
-    }
+}
 # INTRO
 print('---------------------')
 print('{} Military Enlistment {}'.format(colors['GREEN'], colors['CLEAN']))
