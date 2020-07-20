@@ -7,9 +7,9 @@ colors = {
     'RED':'\033[31m'
 }
 # INTRO
-print('-----------------')
+print('=================')
 print('{} Body Mass index {}'.format(colors['GREEN'], colors['CLEAN']))
-print('-----------------')
+print('=================')
 # INPUT
 height = float(input('Type your height: '))
 weight = float(input('Type your weight: '))

@@ -15,4 +15,4 @@ r3 = float(input('Enter the length of the third straight: '))
 if r1 < r2 + r3 and r2 < r1  + r3 and r3 < r1 + r2:
     print('\nWith these lines it is possible to form a triangle \n')
 else:
-    print("\nwith these lines it ins't possible to form a triangle \n")
+    print("\nWith these lines it ins't possible to form a triangle \n")

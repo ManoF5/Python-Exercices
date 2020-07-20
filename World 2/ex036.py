@@ -5,9 +5,9 @@ colors = {
     'RED':'\033[31m'
     }
 # INTRO
-print(' --------------------------- ')
+print(' ===========================  ')
 print('{}  Bank Loan: House Purchase {}'.format(colors['GREEN'], colors['CLEAN']))
-print(' --------------------------- ')
+print(' =========================== ')
 # INPUT
 house_value = float(input('House value: {}${}'.format(colors['GREEN'], colors['CLEAN'])))
 salary = float(input('Your salary: {}${}'.format(colors['GREEN'], colors['CLEAN'])))
