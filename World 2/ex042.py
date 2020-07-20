@@ -15,9 +15,9 @@ r3 = float(input('Enter the length of the {}third{} straight: '.format(colors['G
 # OUTPUT
 if r1 < r2 + r3 and r2 < r1  + r3 and r3 < r1 + r2:
     print('\nWith these lines it {}is possible{} to form a triangle'.format(colors['GREEN'], colors['CLEAN']))
-    if r1 == r2 and r1 == r3:
+    if r1 == r2 == r3:
         print('Type: {}Equilateral Triangle{} \n'.format(colors['GREEN'], colors['CLEAN']))
-    elif (r1 == r2 and r1 != r3) or (r1 == r3 and r1 != r2) or (r2 == r3 and r2 != r1):
+    elif (r1 == r2 != r3) or (r1 == r3 != r2) or (r2 == r3 != r1):
         print('Type: {}Isosceles Triangle{} \n'.format(colors['GREEN'], colors['CLEAN']))
     else:
         print('Type: {}Scalene Triangle{} \n'.format(colors['GREEN'], colors['CLEAN']))
