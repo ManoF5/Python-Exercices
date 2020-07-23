@@ -11,7 +11,7 @@ print('=====================')
 print('{} Military Enlistment {}'.format(colors['GREEN'], colors['CLEAN']))
 print('=====================')
 # INPUT
-birth = int(input('Type your birthday year: '))
+birth = int(input('Type your birth year: '))
 age = actual - birth
 # OUTPUT
 if age > 18:

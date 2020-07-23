@@ -20,7 +20,7 @@ print('\n{} JUNIOR {} \n 14-19 years \n'.format(colors['GREEN'], colors['CLEAN']
 print('\n{} SENIOR {} \n 19-20 years \n'.format(colors['CYAN'], colors['CLEAN']))
 print('\n{} MASTER {} \n above 2O years\n'.format(colors['BLUE'], colors['CLEAN']))
 # INPUT
-birth = int(input('Type your birthday year: '))
+birth = int(input('Type your birth year: '))
 # MATH
 age = actual - birth
 # OUTPUT
