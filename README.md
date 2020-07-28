@@ -30,7 +30,8 @@ Ex.Number | description
 020       | Random Order 
 022       | Analyzing the Full Name
 023       | Separating the Digits of a Number
-
+024       | Checking the First Letters of a Text
+025       | Searching for a String Within Another
 
 ## C to Python
 Transforming code made in C to Python language
