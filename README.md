@@ -22,6 +22,14 @@ Ex.Number | description
 012       | Discount Calculator
 013       | Salary Adjustment
 014       | Temperature Converter
+015       | Car Rent
+016       | Truncated Number
+017       | Hypotenuse Calculator
+018       | Sine, Cosine and Tangent
+019       | Random Choice Student
+020       | Random Order 
+022       | Analyzing the Full Name
+023       | Separating the Digits of a Number
 
 
 ## C to Python
