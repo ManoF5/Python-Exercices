@@ -7,16 +7,22 @@ made by [Gustavo Guanabara](https://github.com/gustavoguanabara)
 - [ ] World 2
 - [ ] World 3
 
-Ex.Number | description
+Ex.Number | description         
 :--:      | :--:
 001       | Hello World
 002       | Answering the User
 003       | Summing two Numbers
-004       |
-005       |
-006       |
-008       |
-009       |
+004       | Breaking a Variable
+005       | Predecessor and Successor
+006       | Double, Triple and Square Root
+008       | Measure Converter
+009       | Multiplication Table
+010       | Currency Converter
+011       | Painting the Wall
+012       | Discount Calculator
+013       | Salary Adjustment
+014       | Temperature Converter
+
 
 ## C to Python
 Transforming code made in C to Python language
