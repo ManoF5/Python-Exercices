@@ -7,6 +7,7 @@ made by [Gustavo Guanabara](https://github.com/gustavoguanabara)
 - [ ] World 2
 - [ ] World 3
 
+## world 1 
 Ex.Number | description         
 :--:      | :--:
 001       | Hello World
@@ -42,6 +43,10 @@ Ex.Number | description
 033       | Higher and Lower Number
 034       | Multiple Increase
 035       | Triangle Analyzer v.1.0
+
+## World 2
+Ex.Number | description         
+:--:      | :--:
 036       | Approving Loan
 037       | Base Converter
 038       | Comparing Numbers
