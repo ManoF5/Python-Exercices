@@ -16,7 +16,7 @@ Ex.Number | description
 005       | Predecessor and Successor
 006       | Double, Triple and Square Root
 008       | Measure Converter
-009       | Multiplication Table
+009       | Multiplication Table v.1.0
 010       | Currency Converter
 011       | Painting the Wall
 012       | Discount Calculator
@@ -32,6 +32,39 @@ Ex.Number | description
 023       | Separating the Digits of a Number
 024       | Checking the First Letters of a Text
 025       | Searching for a String Within Another
+026       | First and Last Occurrence of a String
+027       | First and Last Name
+028       | Guessing Game v.1.0
+029       | Electronic Radar
+030       | Even or Odd?
+031       | Travel Cost
+032       | Bissextile Year
+033       | Higher and Lower Number
+034       | Multiple Increase
+035       | Triangle Analyzer v.1.0
+036       | Approving Loan
+037       | Base Converter
+038       | Comparing Numbers
+039       | Military Enlistment
+040       | Media Calculator
+041       | Swimming Age Classification
+042       | Triangle Analyzer v.2.0
+043       | Body Mass index 
+044       | Payment Manager
+045       | Rock-Paper-Scissor
+046       | Countdown
+047       | Even Numbers from 0 to 50
+048       | Odd Numbers and Multiples of 3 from 0 to 500
+049       | Multiplication Table v.2.0
+050       | Sum Only Odd Numbers
+051       | Arithmetic Progression
+052       | Prime Numbers
+053       | Palindrome Phrase Verify 
+054       | Adulthood Group
+055       | Highest and Lowest Weight
+056       | Complete Analyze
+057       | Data Validation
+
 
 ## C to Python
 Transforming code made in C to Python language
