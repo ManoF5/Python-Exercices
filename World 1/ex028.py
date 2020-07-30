@@ -8,7 +8,7 @@ colors = {
     'RED':'\033[1;31m'
     }
 # INPUT
-print('Try to find the number chosen by the {}machine{}'.format(colors['GREEN'], colors['CLEAR']))
+print('Try to guess the number chosen by the {}machine{}'.format(colors['GREEN'], colors['CLEAR']))
 num = int(input('type a number({}0-5{}): '.format(colors['GREEN'], colors['CLEAR'])))
 # OUTPUT
 if num == machine_num:

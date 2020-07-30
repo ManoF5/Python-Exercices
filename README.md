@@ -69,7 +69,7 @@ Ex.Number | description
 055       | Highest and Lowest Weight
 056       | Complete Analyze
 057       | Data Validation
-
+058       | Guessing Game v.2.0
 
 ## C to Python
 Transforming code made in C to Python language
