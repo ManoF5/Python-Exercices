@@ -70,6 +70,7 @@ Ex.Number | description
 056       | Complete Analyze
 057       | Data Validation
 058       | Guessing Game v.2.0
+059       | Table Calculator
 
 ## C to Python
 Transforming code made in C to Python language
