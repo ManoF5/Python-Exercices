@@ -62,7 +62,7 @@ Ex.Number | description
 048       | Odd Numbers and Multiples of 3 from 0 to 500
 049       | Multiplication Table v.2.0
 050       | Sum Only Odd Numbers
-051       | Arithmetic Progression
+051       | Arithmetic Progression (with for)
 052       | Prime Numbers
 053       | Palindrome Phrase Verify 
 054       | Adulthood Group
@@ -72,6 +72,7 @@ Ex.Number | description
 058       | Guessing Game v.2.0
 059       | Table Calculator
 060       | Factorial Calculation
+061       | Arithmetic Progression (with while)
 
 ## C to Python
 Transforming code made in C to Python language
