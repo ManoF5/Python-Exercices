@@ -71,6 +71,7 @@ Ex.Number | description
 057       | Data Validation
 058       | Guessing Game v.2.0
 059       | Table Calculator
+060       | Factorial Calculation
 
 ## C to Python
 Transforming code made in C to Python language
