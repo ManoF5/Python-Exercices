@@ -72,7 +72,11 @@ Ex.Number | description
 058       | Guessing Game v.2.0
 059       | Table Calculator
 060       | Factorial Calculation
-061       | Arithmetic Progression (with while)
+061       | Arithmetic Progression v.1.0(with while)
+062       | Arithmetic Progression v.2.0(with while)
+063       | Fibonacci Sequence v.1.0
+064       | Handling Multiples Values v.1.0
+065       | Higher and Lower Value
 
 ## C to Python
 Transforming code made in C to Python language
