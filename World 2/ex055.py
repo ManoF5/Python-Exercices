@@ -13,7 +13,7 @@ print('='*27)
 # INPUT
 for i in range(0,5):
     weight = float(input('Type the weight of the {}° person: '.format(i+1))) 
-    if i == 1:
+    if i == 0:
         hi_weight = weight
         low_weight = weight
     else:

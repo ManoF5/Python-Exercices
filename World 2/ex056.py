@@ -18,10 +18,16 @@ for i in range(0,people_quant):
     age = int(input('{}Type your age:{} '.format(colors['CLEAN'], colors['GREEN'])))
     sex = str(input('{}Type your sex(M/F):{} '.format(colors['CLEAN'], colors['GREEN']))).strip().upper()
     print('{}'.format(colors['CLEAN']),end='')
+    if i == 0 and sex == 'M':
+        older_male = age
+        older_male_name = name
+    # 1° QUESTION
     avarage += age
+    # 2° QUESTION
     if age > older_male and sex == 'M':
         older_male = age
         older_male_name = name
+    # 3° QUESTION
     if age < 20 and sex == 'F':
         womans_under20 += 1
 # OUTPUT

@@ -1,5 +1,5 @@
 from random import randint
-machine_num = randint(0, 10)
+machine_num = randint(0, 11)
 player_attempts = 1
 # COLORS
 colors = {
@@ -13,10 +13,16 @@ print('{}MACHINE{}: Guess the number choose by me'.format(colors['RED'], colors[
 player_num = int(input('{}YOU{}: '.format(colors['GREEN'], colors['CLEAR'])))
 # OUTPUT
 while player_num != machine_num:
-    print('{}MACHINE{}: Wrong, try again...'.format(colors['RED'], colors['CLEAR'])) 
+    if player_num > 10:
+        print('{}MACHINE{}: Wrong, I say between 0 and 10!'.format(colors['RED'], colors['CLEAR']))
+    elif player_num > machine_num:
+        print('{}MACHINE{}: Wrong, try lower...'.format(colors['RED'], colors['CLEAR']))
+    elif player_num < machine_num:
+        print('{}MACHINE{}: Wrong, try higher...'.format(colors['RED'], colors['CLEAR']))
+    # new input
     player_num = int(input('{}YOU{}: '.format(colors['GREEN'], colors['CLEAR'])))
     player_attempts += 1
 if player_attempts == 1:
     print('{}MACHINE{}: Wow,you got right on the first try!'.format(colors['RED'], colors['CLEAR']))
 else:
-    print('{}MACHINE{}: After {} attempts you got the number right'.format(colors['RED'], colors['CLEAR'], player_attempts))
+    print('{}MACHINE{}: After {} attempts you got the right number!'.format(colors['RED'], colors['CLEAR'], player_attempts))
