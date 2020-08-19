@@ -1,5 +1,5 @@
 from random import randint
-machine_num = randint(0, 11)
+machine_num = randint(0, 10) # In this case the program don't ignore the last value(10)
 player_attempts = 1
 # COLORS
 colors = {
