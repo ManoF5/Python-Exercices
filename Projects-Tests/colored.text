@@ -2,13 +2,14 @@ Attributes: (attr)
 +-----+------------------+
 |Code | Description      |
 +-----+------------------+
+|  0  | reset            |
 |  1  | bold             |
 |  2  | dim              |
 |  4  | underlined       |
 |  5  | blink            |
 |  7  | reverse          |
 |  8  | hidden           |
-|  0  | reset            |
+|-----|------------------|
 |  21 | res_bold         |
 |  22 | res_dim          |
 |  24 | res_underlined   |
@@ -17,7 +18,7 @@ Attributes: (attr)
 |  28 | res_hidden       |
 +------------------------+
 
-256 Foreground and Background Colors - Full Chart: (fr and bg)
+256 Foreground and Background Colors - Full Chart: (fg and bg)
 +-----+---------------------+
 |Code | Description         |
 +-----+---------------------+
