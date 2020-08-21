@@ -79,5 +79,6 @@ Ex.Number | description
 065       | Higher and Lower Value
 066       | Several numbers with flag
 067       | Multiplication Table v.3.0
+
 ## C to Python
 Transforming code made in C to Python language
