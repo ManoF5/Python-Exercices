@@ -3,8 +3,6 @@ RESET = '\033[m'
 RED   = '\033[31m'
 GREEN = '\033[32m'
 YELLOW = '\033[33m'
-# INTRO
-
 # DATA
 i = 1
 adulthood = man_quant = woman_below_20 = 0
