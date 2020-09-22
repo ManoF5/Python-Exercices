@@ -20,7 +20,7 @@ while True:
     total_price += product_price
     # QUESTION B
     if product_price > 1000:
-        above_1000 += 0
+        above_1000 += 1
     # QUESTION C
     if i == 1:
         cheaper = product_price
