@@ -7,7 +7,7 @@ made by [Gustavo Guanabara](https://github.com/gustavoguanabara)
 - [ ] World 2
 - [ ] World 3
 
-## world 1 
+## World 1 
 Ex.Number | description         
 :--:      | :--:
 001       | Hello World
@@ -81,6 +81,10 @@ Ex.Number | description
 067       | Multiplication Table v.3.0
 068       | Even or Odd Game
 069       | Group Data Analysis
+070       | Statistics on Products
+071       | ATM Machine Simulator
+
+## World 3
 
 ## C to Python
 Transforming code made in C to Python language
