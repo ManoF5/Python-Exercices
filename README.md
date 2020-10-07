@@ -4,7 +4,7 @@ made by [Gustavo Guanabara](https://github.com/gustavoguanabara)
 
 ## Course Levels
 - [x] World 1
-- [ ] World 2
+- [x] World 2
 - [ ] World 3
 
 ## World 1 
