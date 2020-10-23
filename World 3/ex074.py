@@ -2,9 +2,10 @@
 RESET  = '\033[m'
 GREEN = '\033[32m'
 YELLOW  = '\033[33m'
-# LIBRARY and DATA
+# LIBRARY 
+from random import randint
+# DATA
 while True:
-    from random import randint
     sort_numbers = (randint(0,10), randint(0,10), randint(0,10), randint(0,10), randint(0,10))
     hi_num = -1
     low_num = 11
