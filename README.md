@@ -85,6 +85,9 @@ Ex.Number | description
 071       | ATM Machine Simulator
 
 ## World 3
+072       | Extensive Numbers
+073       | Higher and lower Value
+075       | Data analysis in a Tuple 
 
 ## C to Python
 Transforming code made in C to Python language

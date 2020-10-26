@@ -3,15 +3,27 @@ RESET  = '\033[m'
 RED = '\033[31m'
 GREEN = '\033[32m'
 # DATA
-nine_times = 0
-position_of3 = -1
-have_pair = False
+even = False
 # INTRO
-
+print('=' * 26)
+print(f' {GREEN}Data analysis in a Tuple {RESET}')
+print('=' * 26)
 # INPUT
-n1 = int(input('Type the first number: '))
-n2 = int(input('Type the second number: '))
-n3 = int(input('Type the third number: '))
-n4 = int(input('Type the fourth number: '))
-numbers = (n1, n2, n3, n4)
-print(numbers)
+num = (int(input('Type the first number: ')),
+    int(input('Type the second number: ')),
+    int(input('Type the third number: ')),
+    int(input('Type the fourth number: ')))
+print("You type the values:",num,'\n')
+# A
+print(f"A: The number 9 appeared {GREEN}{num.count(9)}{RESET} times")
+# B
+print(f"B: The first appearance of number 3 was in the {GREEN}{num.index(3)+1}{RESET}º position")
+# C
+print(f'C: The even number entered:',end=' ')
+for n in num:
+    if n % 2 == 0:
+        print(f'{GREEN}{n}{RESET}',end=' ')
+        even = True
+    if even == False:
+        print(f'{RED}Not Found{RESET}')
+print('\n')
