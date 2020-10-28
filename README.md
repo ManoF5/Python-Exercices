@@ -88,6 +88,7 @@ Ex.Number | description
 072       | Extensive Numbers
 073       | Higher and lower Value
 075       | Data analysis in a Tuple 
+076       | List of Prices
 
 ## C to Python
 Transforming code made in C to Python language
