@@ -23,7 +23,7 @@ file.close()
 
 # Decrypt the encrypt message 
 f2 = Fernet(key)
-decrypted = f2.decrypt(b'gAAAAABftC9ALD3mrcDheDt-8vB5wqDWfRhVhF2v42856cO9xiaCWkpugXdK-l-IhMr141UrPt6zeZDSustlxEjf_1MHSdkqExBOHw0xGIVhdNJ6813GKNQ=')
+decrypted = f2.decrypt(encrypted)
 
 # Decode the message
 original_message = decrypted.decode()
