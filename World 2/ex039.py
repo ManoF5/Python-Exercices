@@ -7,9 +7,9 @@ colors = {
     'GREEN':'\033[32m'
 }
 # INTRO
-print('=====================')
+print('='*21)
 print('{} Military Enlistment {}'.format(colors['GREEN'], colors['CLEAN']))
-print('=====================')
+print('='*21)
 # INPUT
 birth = int(input('Type your birth year: '))
 age = actual - birth
